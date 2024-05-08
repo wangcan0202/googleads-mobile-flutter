@@ -4,6 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:google_mobile_ads/google_mobile_ads.dart';
 import 'package:rewarded_interstitial_example/ad_dialog.dart';
 
+//插页式激励广告
 void main() {
   WidgetsFlutterBinding.ensureInitialized();
   MobileAds.instance.initialize();
@@ -28,8 +29,8 @@ class RewardedInterstitialExampleState
   RewardedInterstitialAd? _rewardedInterstitialAd;
 
   final String _adUnitId = Platform.isAndroid
-      ? 'ca-app-pub-3940256099942544/5354046379'
-      : 'ca-app-pub-3940256099942544/6978759866';
+      ? 'ca-app-pub-4251143769882852/2636621562'
+      : 'ca-app-pub-4251143769882852/7872335058';
 
   @override
   void initState() {

@@ -3,6 +3,7 @@ import 'dart:io';
 import 'package:flutter/material.dart';
 import 'package:google_mobile_ads/google_mobile_ads.dart';
 
+//日历横幅广告
 void main() {
   WidgetsFlutterBinding.ensureInitialized();
   MobileAds.instance.initialize();
@@ -25,8 +26,8 @@ class BannerExampleState extends State<BannerExample> {
   Orientation? _currentOrientation;
 
   final String _adUnitId = Platform.isAndroid
-      ? 'ca-app-pub-3940256099942544/9214589741'
-      : 'ca-app-pub-3940256099942544/2435281174';
+      ? 'ca-app-pub-4251143769882852/5262784903'
+      : 'ca-app-pub-4251143769882852/4906959046';
 
   @override
   Widget build(BuildContext context) {

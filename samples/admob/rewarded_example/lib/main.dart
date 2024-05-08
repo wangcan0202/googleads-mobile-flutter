@@ -2,7 +2,7 @@ import 'countdown_timer.dart';
 import 'dart:io';
 import 'package:flutter/material.dart';
 import 'package:google_mobile_ads/google_mobile_ads.dart';
-
+//激励广告
 void main() {
   WidgetsFlutterBinding.ensureInitialized();
   MobileAds.instance.initialize();
@@ -26,8 +26,8 @@ class RewardedExampleState extends State<RewardedExample> {
   RewardedAd? _rewardedAd;
 
   final String _adUnitId = Platform.isAndroid
-      ? 'ca-app-pub-3940256099942544/5224354917'
-      : 'ca-app-pub-3940256099942544/1712485313';
+      ? 'ca-app-pub-4251143769882852/4217543961'
+      : 'ca-app-pub-4251143769882852/8103435199';
 
   @override
   void initState() {

@@ -4,6 +4,7 @@ import 'dart:io';
 import 'package:flutter/material.dart';
 import 'package:google_mobile_ads/google_mobile_ads.dart';
 
+//插页式广告
 void main() {
   WidgetsFlutterBinding.ensureInitialized();
   MobileAds.instance.initialize();
@@ -26,8 +27,8 @@ class InterstitialExampleState extends State<InterstitialExample> {
   late var _counter = _gameLength;
 
   final String _adUnitId = Platform.isAndroid
-      ? 'ca-app-pub-3940256099942544/1033173712'
-      : 'ca-app-pub-3940256099942544/4411468910';
+      ? 'ca-app-pub-4251143769882852/3652737064'
+      : 'ca-app-pub-4251143769882852/9504146779';
 
   @override
   void initState() {
